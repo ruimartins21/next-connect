@@ -6065,10 +6065,10 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-styled-jsx@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/styled-jsx/-/styled-jsx-3.1.0.tgz#c295e4170298b5bb858f848c4b73e423a73a68f3"
-  integrity sha512-drcLtuMC9wKhxZ5C7PyGxy9ADWfw7svB8zemWu+zpG8x4n/hih2xQU2U+SG6HF3TjV3tOjRrNIQOV8vUvffifA==
+styled-jsx@3.0.0, styled-jsx@3.1.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/styled-jsx/-/styled-jsx-3.0.0.tgz#c914d53908ad11fdc1b188873bce1ca186e47e8e"
+  integrity sha512-mXKc23KVubc/RsT/nJ/CeAbkrXBOlo0kKSjGII6juZb6ArKv9Z2EP/wSjrdq8lZW9ZZpFVGdrOmZm5evz0O4Eg==
   dependencies:
     babel-plugin-syntax-jsx "6.18.0"
     babel-types "6.26.0"
@@ -6490,10 +6490,15 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validator@^10.4.0, validator@^10.8.0:
+validator@^10.4.0:
   version "10.11.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
   integrity sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==
+
+validator@^13.7.0:
+  version "13.7.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.7.0.tgz#4f9658ba13ba8f3d82ee881d3516489ea85c0857"
+  integrity sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==
 
 vary@~1.1.2:
   version "1.1.2"
